@@ -17,7 +17,7 @@ mods.bloodmagic.AlchemyTable.removeRecipe([<minecraft:dirt:*>,<minecraft:dye:15>
 
 # No Cutting Fluid recipes
 var allOres = <ore:allOres>;
-allOres.addAll(<ore:oreSaltpeter>); 
+allOres.addAll(<ore:oreSaltpeter>);
 allOres.addAll(<ore:oreSalt>);
 allOres.addAll(<ore:oreSilver>);
 allOres.addAll(<ore:oreLead>);
@@ -599,17 +599,18 @@ addBloodMagicSigilRecipe(<bloodmagic:sigil_teleposition>, <bloodmagic:component:
 
 # Creative Activation Crystal
 mods.extendedcrafting.TableCrafting.addShaped(<bloodmagic:activation_crystal:2>,
-[[null, <alchemistry:ingot:118>, <alchemistry:ingot:118>, null, null], 
-[<alchemistry:ingot:118>, <totemic:ceremony_cheat>, <alchemistry:ingot:118>, <alchemistry:ingot:118>, null], 
-[<alchemistry:ingot:118>, <bloodmagic:activation_crystal:1>, <evilcraft:creative_blood_drop>, <bloodmagic:activation_crystal:1>, null], 
-[null, <alchemistry:ingot:118>, <alchemistry:ingot:118>, <alchemistry:ingot:118>, null], 
+[[null, <alchemistry:ingot:118>, <alchemistry:ingot:118>, null, null],
+[<alchemistry:ingot:118>, <totemic:ceremony_cheat>, <alchemistry:ingot:118>, <alchemistry:ingot:118>, null],
+[<alchemistry:ingot:118>, <bloodmagic:activation_crystal:1>, <evilcraft:creative_blood_drop>, <bloodmagic:activation_crystal:1>, null],
+[null, <alchemistry:ingot:118>, <alchemistry:ingot:118>, <alchemistry:ingot:118>, null],
 [null, null, null, <alchemistry:ingot:118>, <alchemistry:ingot:118>]]);
 
 # Creative Sacrifical Dagger
 mods.extendedcrafting.TableCrafting.addShaped(<bloodmagic:sacrificial_dagger:1>.withTag({sacrifice: 0 as byte}),
-[[null, null, null, null, <alchemistry:ingot:75>], 
-[<alchemistry:ingot:112>, null, null, <bloodmagic:sacrificial_dagger>, null], 
-[null, <alchemistry:ingot:112>, <bloodmagic:activation_crystal:2>, null, null], 
-[null, <bloodmagic:sacrificial_dagger>, <alchemistry:ingot:112>, null, null], 
+[[null, null, null, null, <alchemistry:ingot:75>],
+[<alchemistry:ingot:112>, null, null, <bloodmagic:sacrificial_dagger>, null],
+[null, <alchemistry:ingot:112>, <bloodmagic:activation_crystal:2>, null, null],
+[null, <bloodmagic:sacrificial_dagger>, <alchemistry:ingot:112>, null, null],
 [<alchemistry:ingot:110>, null, null, <alchemistry:ingot:112>, null]]);
+
 print("ENDING BloodMagic.zs");
