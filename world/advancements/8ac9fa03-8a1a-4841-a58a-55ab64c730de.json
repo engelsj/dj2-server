@@ -1,0 +1,26 @@
+{
+  "erebus:portal/root": {
+    "criteria": {
+      "obsidian": "2021-09-04 12:40:20 +0000"
+    },
+    "done": false
+  },
+  "twilightforest:alt/compat/tc_aspects": {
+    "criteria": {
+      "crystal_essence": "2021-09-02 23:59:27 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/compat/tconstruct": {
+    "criteria": {
+      "pattern": "2021-09-03 15:32:28 +0000"
+    },
+    "done": true
+  },
+  "triumph:dj2/01_divin_into_dj2": {
+    "criteria": {
+      "hasTotemCarverKnife": "2021-09-04 13:47:52 +0000"
+    },
+    "done": true
+  }
+}

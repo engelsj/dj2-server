@@ -1,0 +1,26 @@
+{
+  "parties:9": {
+    "0:10": {
+      "members:9": {
+        "0:10": {
+          "uuid:8": "8ac9fa03-8a1a-4841-a58a-55ab64c730de",
+          "status:8": "MEMBER"
+        },
+        "1:10": {
+          "uuid:8": "529729ba-e957-4c01-87bb-ca1ca972bf54",
+          "status:8": "MEMBER"
+        },
+        "2:10": {
+          "uuid:8": "d5fbc9d9-1185-4b96-a091-5e0d3ae9918f",
+          "status:8": "OWNER"
+        }
+      },
+      "partyID:3": 0,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Traders"
+        }
+      }
+    }
+  }
+}
