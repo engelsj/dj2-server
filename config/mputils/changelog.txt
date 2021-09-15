@@ -1,39 +1,66 @@
-Version 2.2.0
-
 YOU'LL NEED TO UPDATE YOUR QUEST BOOK BY TYPING:
 /bq_admin default load
 (This has to only be done once in multiplayer, by an admin.)
 
-- Updated to Roots 3.1.1. Hid multiple new JEI Categories. Fixed some scripts due to item names and NBT tags changing. Added recipes for the Roots: Imposer, Gramary of the Forest, Herb Pouch, Apothecary Pouch (changed), Grove Supplication Spell Dust -> Ritual, Runic Crafter, Runed Obsidian, Terrastone Tools & Weapons, Glass Eye. Changed a bunch of Spell Dusts and Rituals that were deemed too OP. Added a Ritual to summon a Natura Imp. Huge thanks to WaitingIdly for implementing these changes!
-- Removed the Modular Fey Crafter. Replaced it with the new Runic Crafter.
-- The Roots guide book now correctly unlocks its Chapters.
-- Added Spark, an alternative to LagGoggles, since latter is incompatible with the current mod versions.
-- Added Simply Backpacks. Iron Backpacks have multiple known duplication bugs, so we're slowly phasing them out. Replaced all recipes that use Iron Backpacks to use Simply Backpacks. Added custom recipes for all Simply Backpacks, and removed all Iron Backpack recipes. For now, existing Iron Backpacks will stay ingame, but new ones won't be craftable.
-- The Inferno Sword can now use an type of Redstone Ore.
-- Red Coal can now correctly be crafted from Charcoal Block.
-- Increased Imp spawn rate in the Nether from frequency 40 to 80.
-- Added localization for custom Bewitchment Rituals.
-- Fixed a recipe conflict between the Congealed Slime Block and other TC Slime Blocks.
-- Fixed a recipe conflict between the Galacticraft Grating and Quark Iron Grate.
-- Gated the BiblioCraft Print Press Chase, Typesetting Table & Printing Press after Chapter 11.
-- Added a duplication recipe for the Crown of Skies so that more than 1 team members can also use it.
-- End Steel Armor now upgrades from Dark Steel Armor, and Stellar Armor now upgrades from End Steel Armor.
-- Removed Platinum and Iridium Ores from being able to be mined up by the IE Excavator, as this can skip progression.
-- Thaumic JEI no longer recreates all aspect stacks on startup, which should decrease load times by a couple seconds.
-- Fixed Lead Dust not being smeltable in the Redstone Furnance.
-- Readded missing Venus Dungeon decoration.
-- Fixed a bug where the Skythern Boss Door and the Apalachia Boss Door textures wouldn't render.
-- Fixed some blocks in the Eden Dungeon.
-- The Eden Hut now spawns with an Eden Chest instead of a regular Chest.
-- The "Puzzle Pieces" Backpack is now a Holding IV Thermal Satchel.
-- Fixed Puzzle Tiles not having localized names (after the 2.1.0 change).
-- Disabled excessive logging added by: AgriCraft, AE2, EnderIO, FTB Utilities & Guide API.
-- Disabled server analytics added by: Common Capabilities, Cyclops Core, EvilCraft, Integrated Dynamics, Integrated Tunnels (The game should feel slightly faster now.)
-- Added notes to check the "next page" for rewards in quests that have multiple pages.
-- Fixed the Engineer's Hammer completing the Wire Cutter quest and the other way around.
-- Added more information to the Thermoelectric Generator quest that Yellorium Blocks can also be used.
-- The IE Mold quest description now correctly says "4 molds" instead of "3 molds".
-- Corrected the the quest description on how to obtain the Heart of Ra.
-- Fixed a typo in the "On Channels" quest: "Cabe" -> "Cable".
-- Fixed an item name typo: "Grans of Infinity Singularity" -> "Grains of Infinity Singularity".
-- Corrected the name of the Roots Trophy.
+REMINDER: Iron Backpacks are being phased out. They will be removed in a later version, so move your items into Simply Backpacks.
+
+Version 2.3.1
+
+- Fixed Mekanism Tanks not being upgradable once they've been placed down.
+- Fixed Mystical World huts spawning the wrong kind of Copper.
+- Nether Reed can now be used to make Paper.
+- Added Osmium Ore to the IE Excavator.
+- Energized Osmium and Energized Certus can no longer be crafted with containers. I'll reenable this once I figure out how to make the recipes use up the Biodiesel in Crafting Terminals.
+- Changed the max stack size of Mekanism Speed, Energy and Gas Upgrades from 8 to 64.
+- Changed the recipe of the Large Nether Brick tile, as it was conflicting with the Nether Brick from Slabs recipe.
+- The /dev/null now takes 4 Papers instead of 4 Open Ingots.
+- Oil Sand and Coralium Ores can now be mined up from any Biome using the Laser Drill.
+- Solar Panel II now crafts 4 at a time, and all Solar Panels from III craft 2 at a time (up from 1).
+- Added a recipe for Wildwood Saplings.
+- Sand in the Pulverized can now be made into Gravel.
+- Disabled the Soulium Dagger. Mob Chunks are only meant to be gotten through crafting.
+- Removed the unnecessary phospor.cfg since the mod was removed previously.
+- Fixed an exploit that let players copy any block in the Wildwood dungeon if they somehow reached the hidden room. The clone command now filters for Andesite or other stones only.
+- Fixed an exploit that let players covert between any of the Ores using DankNulls.
+- Fixed an exploit that let players duplicate any item using the IF Mob Duplicator. Now Excact Copy mode is set to false.
+- Fixed a progression skip that let players obtain Primordial Pearls and Garmonbozia early from Thaumcraft structures. Had to disable the Hollow Hill structures for this. (Unfortunately there is no way to disable just the Urns from them, or change the loot table of the Urns.)
+- Fixed a progression skip by disabling Thaumcraft Pechs. They could have given various Thaumcraft items that should only be available from Chapter 19.
+- Fixed the misinformation in Chapter 3 about the Runed items not autorepairing.
+- The Crystal Growth Accelerator quest in Chapter 6 now only asks for 2 instead of 5.
+- Fixed unbalanced quest rewards in the "Always been bits" quests in Chapter 13.
+- The Ender Lasso quest no longer gives a Mob Imprisonment Tool as its reward in Chapter 13.
+- Added a missing character in Chapter 30.
+- Added a tooltip on the Imp Leather that Imps can be spawned by the Roots "Summon Creatures" ritual.
+
+
+Version 2.3.0
+
+- Updated AgriCraft to version 1.12.2-b2 and its dependency InfinityLib to version 1.12.1. This added world configs: Disabled AgriCraft houses there.
+- Updated Extra CPUs to version 1.2.0.
+- The Crown of Skies can now actually be duplicated.
+- Fixed the Roots achievement disappearing due to the Pyre having a different internal name in the new Roots version.
+- The special Stone required for the TeslaCore Machine Case is no longer in the stone and stonebrick OreDicionaries.
+- JEI Resources now correctly shows where ores spawn.
+- Treated Leather, Energized Osmium and Energized Certus can now be crafted with a Thermal or EnderIO Tank.
+- Fixed the Enrichment Chamber outputting Charged Certus Quartz when regular Certus Quartz Ore is input.
+- The Immersive Engineering Railgun now deals 10x more damage (with all bullets), the Homing Bullet also deals an additional 2x more (20x in total). Additionally RF consumption is now only 200 RF per shot (down from 800 RF per shot).
+- The Immersive Engineering Chemthrower now consumes 10x less fluid and 32x less RF/tick.
+- Radiator Blocks now craft 2 at a time.
+- The Unbreakable Wand now upgrades from the Diamond Wand.
+- Removed Frosts (explody snow flake mobs). This removes access to Tomatoes, so instead Tomato Seeds are now rarely found in regular dungeon chests.
+- Better Nether Cities no longer generate. (They could freeze up and crash the game/server.)
+- The Roots Acid Cloud spell has been deemed too OP (especially with the Heal modifier), so it's been gated after Chapter 10.
+- Cleared the Roots and EvilCraft Loot inject tables.
+- The Solar Neutron Activator now takes an Advanced Induction Cell (down from an Elite).
+- Fixed the Abyssal Wasteland and Dreadlands Necronomicons only being craftable with an empty Necronomicon.
+- Fixed the Omothol Necronomicon not having its base recipe removed.
+- Extended the Coralium Stone tooltip that the Cobblestone version can be found in the Abyssal Wasteland.
+- Added AbyssalCraft Creation Ritual recipes for Natura Saplings: Maple, Silverbell, Amaranth, Tigerwood, Willow, Eucalyptus, Hopseed, Sakura, Redwood, Ghostwood, Fusewood, Darkwood, Bloodwood.
+- Removed the Portly Gentlemen trait from Enderium items, and replaced some with Endspeed. Replaced the Portly Gentlemen trait on Fluix tools with Unnatural. (Moving entities shouldn't be available so early.)
+- Gated Morbs and Reusable Morbs until Chapter 10.
+- Rewarded Heart Canisters in Exploration I no longer have an empty NBT tag, so they stack with already crafted ones.
+- Replaced the Puzzle Pieces Backpack with a Diamond Shulker Box, since the Holding enchantment on the previous bag could transform into something else for some reason.
+- Removed the Tool Progression Magic Mushroom from JEI.
+- The Black Tarantula quest now correctly states "Eucalyptus tree" instead of "Baobab tree".
+- Fixed a typo in the Arc Furnace quest: "on the pack" -> "on the back".
+- Corrected the TeslaCore Upgrades quest: "64 of each can be used." -> "One of each of these can be used."

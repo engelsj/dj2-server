@@ -265,4 +265,23 @@ val cultist_table = LootTweaker.getTable("thaumcraft:cultist");
 val cultist_pool = cultist_table.getPool("special_1");
 cultist_pool.addItemEntry(<thaumcraft:curio:6>, 1);
 
+# Roots Wildwood Sapling Inject
+remove_entry("roots:chests/inject", "main", "roots:wildwood_sapling");
+
+# EvilCraft Inject
+clear_pool("evilcraft:inject/chests/box_of_eternal_closure", "spirit");
+clear_pool("evilcraft:inject/chests/condensed_blood", "main");
+clear_pool("evilcraft:inject/chests/origins_of_darkness", "main");
+
+# Tomatoes
+val basicMCTable = LootTweaker.getTable("minecraft:chests/simple_dungeon");
+val basicMCTableMain = basicMCTable.getPool("main");
+basicMCTableMain.addItemEntry(<divinerpg:tomato_seeds>, 2);
+
+# MysticalWorld Copper fix
+val MystWorldHut = LootTweaker.getTable("mysticalworld:chests/hut");
+val MystWorldHutGems = MystWorldHut.getPool("gems");
+MystWorldHutGems.removeEntry("mysticalworld:copper_ingot");
+MystWorldHutGems.addItemEntry(<thermalfoundation:material:128>, 16);
+
 print("ENDING LootTweaker.zs");

@@ -225,7 +225,7 @@ Mortar.changeSpell("spell_sky_soarer", [<roots:cloud_berry>, <betternether:bone_
 Mortar.changeSpell("spell_saturate", [<minecraft:mushroom_stew>, <divinerpg:donut>, <roots:wildewheet>, <mysticalworld:cooked_aubergine>, <roots:petals>]);
 Mortar.changeSpell("spell_wild_fire", [<minecraft:diamond_sword>, <minecraft:tnt>, <roots:infernal_bulb>, <roots:stalicripe>, <ore:blockAmethyst>]);
 Mortar.changeSpell("spell_natures_scythe", [<roots:wildroot>, <roots:wildroot>, <ore:tallgrass>, <mysticalworld:aubergine>, <roots:diamond_knife>]);
-Mortar.changeSpell("spell_acid_cloud", [<spartanshields:shield_tower_invar>, <roots:baffle_cap_mushroom>, <betternether:egg_plant>, <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_poison"}), <ore:blockAmethyst>]);
+Mortar.changeSpell("spell_acid_cloud", [<enderio:item_end_steel_shield>, <roots:baffle_cap_mushroom>, <betternether:egg_plant>, <minecraft:potion>.withTag({Potion: "cofhcore:poison4"}), <ore:blockAmethyst>]);
 Mortar.changeSpell("spell_radiance", [<minecraft:glowstone>, <roots:stalicripe>, <roots:cloud_berry>, <betternether:black_apple>, <ore:blockAmethyst>]);
 Mortar.changeSpell("spell_fey_light", [<minecraft:glowstone>, <roots:cloud_berry>, <betternether:eye_seed>, <minecraft:double_plant>, <ore:blockAmethyst>]);
 Mortar.changeSpell("spell_desaturate", [<minecraft:bowl>, <minecraft:rotten_flesh>, <roots:baffle_cap_mushroom>, <betternether:stalagnate_bowl_mushroom>, <roots:petals>]);
@@ -262,9 +262,13 @@ Rituals.modifyRitual("ritual_flower_growth", [<roots:petals>, <roots:pereskia>, 
 Rituals.modifyRitual("ritual_transmutation", [<roots:moonglow_leaf>, <roots:fey_leather>, <roots:living_arrow>, <ore:gemAmethyst>, <roots:chiseled_runestone>]);
 Rituals.modifyRitual("ritual_gathering", [<roots:wildewheet>, <roots:cloud_berry>, <minecraft:redstone>, <minecraft:wooden_hoe>, <minecraft:bowl>]);
 
+# Wildwood Sapling
+Fey.addRecipe("wildwood_sapling_custom", <roots:wildwood_sapling>, [<totemic:cedar_sapling>,<roots:wildroot>,<mysticalworld:antlers>,<roots:wildwood_log>,<roots:wildwood_log>]);
+
 # Summon Creatures Ritual
 SummonCreatures.clearLifeEssence();
 SummonCreatures.addEntity(<entity:natura:imp>, [<natura:nether_thorn_vines>, <divinerpg:bloodgem>, <betternether:eye_seed>]);
+<natura:materials:6>.addTooltip(format.white("Imps can be spawned by the Roots 'Summon Creatures' ritual."));
 
 # Artificial Scarab Wings
 Fey.addRecipe("artificial_scarab_wings", <contenttweaker:artificial_scarab_wings>, [<roots:moonglow_leaf>,<roots:wildewheet>,<roots:stalicripe>,<roots:fey_leather>,<roots:spirit_herb>]);

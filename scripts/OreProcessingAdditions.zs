@@ -169,6 +169,11 @@ for ore in allBlackQuartzOresListed {
 	EUCrusher.add(<actuallyadditions:item_misc:5> * 2, ore);
 }
 
+# Sand -> Gravel in the Pulverizer
+for s in <ore:sand>.items {
+	mods.thermalexpansion.Pulverizer.addRecipe(<minecraft:gravel>, s, 2000);
+}
+
 # Zanite
 val zaniteGem = <aether_legacy:zanite_gemstone>;
 val zaniteOre = <aether_legacy:zanite_ore>;
@@ -679,7 +684,8 @@ mods.enderio.SagMill.addRecipe([<thermalfoundation:material:68> * 2, <thermalfou
 
 # UB Ores -> Enrichment Chamber
 val UBLeadOres = [<undergroundbiomes:igneous_stone_immersiveengineering_ore_2:*>,<undergroundbiomes:metamorphic_stone_immersiveengineering_ore_2:*>,<undergroundbiomes:sedimentary_stone_immersiveengineering_ore_2:*>,<undergroundbiomes:igneous_stone_tile.thermalfoundation.ore.lead.name:*>,<undergroundbiomes:metamorphic_stone_tile.thermalfoundation.ore.lead.name:*>,<undergroundbiomes:sedimentary_stone_tile.thermalfoundation.ore.lead.name:*>] as IItemStack[];
-val UBCertusQuartzOres = [<undergroundbiomes:igneous_stone_appliedenergistics2_quartz_ore:*>,<undergroundbiomes:metamorphic_stone_appliedenergistics2_quartz_ore:*>,<undergroundbiomes:sedimentary_stone_appliedenergistics2_quartz_ore:*>,<undergroundbiomes:igneous_stone_appliedenergistics2_charged_quartz_ore:*>,<undergroundbiomes:metamorphic_stone_appliedenergistics2_charged_quartz_ore:*>,<undergroundbiomes:sedimentary_stone_appliedenergistics2_charged_quartz_ore:*>] as IItemStack[];
+val UBCertusQuartzOres = [<undergroundbiomes:igneous_stone_appliedenergistics2_quartz_ore:*>,<undergroundbiomes:metamorphic_stone_appliedenergistics2_quartz_ore:*>,<undergroundbiomes:sedimentary_stone_appliedenergistics2_quartz_ore:*>] as IItemStack[];
+val UBChargedCertusQuartzOres = [<undergroundbiomes:igneous_stone_appliedenergistics2_charged_quartz_ore:*>,<undergroundbiomes:metamorphic_stone_appliedenergistics2_charged_quartz_ore:*>,<undergroundbiomes:sedimentary_stone_appliedenergistics2_charged_quartz_ore:*>] as IItemStack[];
 val UBAmethystOres = [<undergroundbiomes:igneous_stone_mysticalworld_amethyst_ore:*>,<undergroundbiomes:metamorphic_stone_mysticalworld_amethyst_ore:*>,<undergroundbiomes:sedimentary_stone_mysticalworld_amethyst_ore:*>] as IItemStack[];
 val UBIridiumOres = [<undergroundbiomes:igneous_stone_tile.thermalfoundation.ore.iridium.name:*>,<undergroundbiomes:metamorphic_stone_tile.thermalfoundation.ore.iridium.name:*>,<undergroundbiomes:sedimentary_stone_tile.thermalfoundation.ore.iridium.name:*>] as IItemStack[];
 val UBNickelOres = [<undergroundbiomes:igneous_stone_tile.thermalfoundation.ore.nickel.name:*>,<undergroundbiomes:metamorphic_stone_tile.thermalfoundation.ore.nickel.name:*>,<undergroundbiomes:sedimentary_stone_tile.thermalfoundation.ore.nickel.name:*>,<undergroundbiomes:igneous_stone_immersiveengineering_ore_4:*>,<undergroundbiomes:metamorphic_stone_immersiveengineering_ore_4:*>,<undergroundbiomes:sedimentary_stone_immersiveengineering_ore_4:*>] as IItemStack[];
@@ -706,6 +712,9 @@ for o in UBLeadOres {
 	mods.mekanism.enrichment.addRecipe(o, <thermalfoundation:material:67> * 2);
 }
 for o in UBCertusQuartzOres {
+	mods.mekanism.enrichment.addRecipe(o, <appliedenergistics2:material:0> * 4);
+}
+for o in UBChargedCertusQuartzOres {
 	mods.mekanism.enrichment.addRecipe(o, <appliedenergistics2:material:1> * 4);
 }
 for o in UBAmethystOres {
