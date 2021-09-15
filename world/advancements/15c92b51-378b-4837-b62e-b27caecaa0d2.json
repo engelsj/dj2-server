@@ -1,0 +1,45 @@
+{
+  "roots:guide": {
+    "criteria": {
+      "book": "2021-09-06 18:29:57 +0000"
+    },
+    "done": true
+  },
+  "roots:all_the_herbs_3": {
+    "criteria": {
+      "wildroot": "2021-09-06 19:12:44 +0000"
+    },
+    "done": false
+  },
+  "triumph:dj2/02_technology": {
+    "criteria": {
+      "hasEngineersHammer": "2021-09-06 18:30:29 +0000"
+    },
+    "done": true
+  },
+  "erebus:portal/root": {
+    "criteria": {
+      "diamond": "2021-09-06 18:21:24 +0000",
+      "emerald": "2021-09-06 18:29:57 +0000"
+    },
+    "done": false
+  },
+  "twilightforest:alt/compat/tconstruct": {
+    "criteria": {
+      "book": "2021-09-06 17:54:49 +0000"
+    },
+    "done": true
+  },
+  "roots:wildroot": {
+    "criteria": {
+      "book": "2021-09-06 19:12:44 +0000"
+    },
+    "done": true
+  },
+  "roots:root": {
+    "criteria": {
+      "auto": "2021-09-06 17:50:40 +0000"
+    },
+    "done": true
+  }
+}

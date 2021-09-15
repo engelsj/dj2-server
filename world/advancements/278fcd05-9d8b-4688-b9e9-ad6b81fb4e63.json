@@ -1,0 +1,244 @@
+{
+  "roots:terra_moss": {
+    "criteria": {
+      "book": "2021-09-06 17:11:11 +0000"
+    },
+    "done": true
+  },
+  "roots:stalicripe": {
+    "criteria": {
+      "book": "2021-09-12 23:11:43 +0000"
+    },
+    "done": true
+  },
+  "atum:core/amirage": {
+    "criteria": {
+      "entered_atum": "2021-09-15 18:55:38 +0000"
+    },
+    "done": true
+  },
+  "atum:core/journeyintothesands": {
+    "criteria": {
+      "entered_atum": "2021-09-14 20:44:54 +0000"
+    },
+    "done": true
+  },
+  "atum:core/thefullmuseum": {
+    "criteria": {
+      "legs_of_atum": "2021-09-15 19:56:22 +0000",
+      "tefnuts_blessing": "2021-09-14 22:36:30 +0000"
+    },
+    "done": false
+  },
+  "twilightforest:twilight_dinner": {
+    "criteria": {
+      "cooked_venison": "2021-09-14 22:31:32 +0000"
+    },
+    "done": false
+  },
+  "atum:core/unundead": {
+    "criteria": {
+      "mummy": "2021-09-15 19:39:29 +0000",
+      "forsaken": "2021-09-15 19:35:36 +0000",
+      "pharaoh": "2021-09-14 22:34:37 +0000"
+    },
+    "done": false
+  },
+  "roots:pacifist": {
+    "criteria": {
+      "book": "2021-09-06 17:17:18 +0000"
+    },
+    "done": true
+  },
+  "roots:staff": {
+    "criteria": {
+      "book": "2021-09-14 22:39:11 +0000"
+    },
+    "done": true
+  },
+  "roots:wildroot": {
+    "criteria": {
+      "book": "2021-09-06 16:49:21 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/entities/deer": {
+    "criteria": {
+      "slay": "2021-09-14 22:13:53 +0000"
+    },
+    "done": true
+  },
+  "atum:core/itbelongsinamuseum": {
+    "criteria": {
+      "tefnuts_blessing": "2021-09-14 22:36:30 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/biomes/oak_savannah": {
+    "criteria": {
+      "discover": "2021-09-14 22:12:31 +0000"
+    },
+    "done": true
+  },
+  "atum:core/ajourney": {
+    "criteria": {
+      "sand_dunes": "2021-09-15 18:57:21 +0000",
+      "dried_river": "2021-09-14 22:35:48 +0000",
+      "deadwood_forest": "2021-09-15 19:21:25 +0000",
+      "deadoasis": "2021-09-15 18:55:38 +0000",
+      "limestone_mountains": "2021-09-15 18:51:46 +0000",
+      "sand_plains": "2021-09-14 20:44:55 +0000"
+    },
+    "done": false
+  },
+  "twilightforest:alt/biomes/general_biomes": {
+    "criteria": {
+      "4": "2021-09-14 22:11:31 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/compat/ie_shaders": {
+    "criteria": {
+      "ie_shader": "2021-09-14 22:37:22 +0000"
+    },
+    "done": true
+  },
+  "triumph:dj2/02_technology": {
+    "criteria": {
+      "hasEngineersHammer": "2021-09-06 17:12:24 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/entities/animals": {
+    "criteria": {
+      "2": "2021-09-14 22:13:53 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:progress_naga": {
+    "criteria": {
+      "kill_mob": "2021-09-14 22:13:53 +0000"
+    },
+    "done": false
+  },
+  "twilightforest:alt/treasures/foods/any": {
+    "criteria": {
+      "3": "2021-09-14 22:13:55 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/compat/tc_aspects": {
+    "criteria": {
+      "crystal_essence": "2021-09-07 15:54:09 +0000"
+    },
+    "done": true
+  },
+  "atum:core/lawbringer": {
+    "criteria": {
+      "barbarian": "2021-09-14 22:15:35 +0000",
+      "brigand": "2021-09-14 21:12:24 +0000",
+      "nomad": "2021-09-15 19:02:37 +0000"
+    },
+    "done": false
+  },
+  "atum:core/kingslayer": {
+    "criteria": {
+      "killed_pharaoh": "2021-09-14 22:34:37 +0000"
+    },
+    "done": true
+  },
+  "roots:all_the_herbs_3": {
+    "criteria": {
+      "wildroot": "2021-09-06 16:49:21 +0000",
+      "terra_moss": "2021-09-06 17:11:11 +0000",
+      "stalicripe": "2021-09-12 23:11:43 +0000"
+    },
+    "done": false
+  },
+  "twilightforest:root": {
+    "criteria": {
+      "in_tf": "2021-09-14 22:11:31 +0000"
+    },
+    "done": true
+  },
+  "atum:core/atumed": {
+    "criteria": {
+      "legs_of_atum": "2021-09-15 19:56:22 +0000"
+    },
+    "done": false
+  },
+  "twilightforest:alt/biomes/firefly_forest": {
+    "criteria": {
+      "discover": "2021-09-14 22:12:34 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/treasures/foods/vension": {
+    "criteria": {
+      "raw": "2021-09-14 22:13:55 +0000"
+    },
+    "done": true
+  },
+  "erebus:portal/root": {
+    "criteria": {
+      "diamond": "2021-09-07 15:32:50 +0000",
+      "obsidian": "2021-09-11 14:45:35 +0000",
+      "emerald": "2021-09-06 17:07:59 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:twilight_hunter": {
+    "criteria": {
+      "deer": "2021-09-14 22:13:53 +0000"
+    },
+    "done": true
+  },
+  "roots:guide": {
+    "criteria": {
+      "book": "2021-09-06 17:00:48 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/biomes/dense_twilight_forest": {
+    "criteria": {
+      "discover": "2021-09-14 22:11:31 +0000"
+    },
+    "done": true
+  },
+  "atum:core/killorbekilled": {
+    "criteria": {
+      "brigand": "2021-09-14 21:12:24 +0000"
+    },
+    "done": true
+  },
+  "atum:core/pyramidscheme": {
+    "criteria": {
+      "in_pyramid": "2021-09-15 19:21:50 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/compat/tconstruct": {
+    "criteria": {
+      "cast": "2021-09-06 16:40:35 +0000"
+    },
+    "done": true
+  },
+  "atum:core/ruinedit": {
+    "criteria": {
+      "in_ruin": "2021-09-15 18:57:00 +0000"
+    },
+    "done": true
+  },
+  "atum:core/itsadate": {
+    "criteria": {
+      "date": "2021-09-15 19:08:28 +0000"
+    },
+    "done": true
+  },
+  "roots:root": {
+    "criteria": {
+      "auto": "2021-09-06 16:34:34 +0000"
+    },
+    "done": true
+  }
+}
