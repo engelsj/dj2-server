@@ -9,6 +9,7 @@
 # It should also prevent Ruins re-spawning under any circumstances. Areas registered in here block any overlapping new Ruins.
 # Empty lines and those prefixed by '#' are ignored by the parser. Don't save notes in here, file gets wiped upon flushing.
 #
+-194 65 1516 -187 69 1523 TinyFarmField.tml
 -161 91 -174 -154 100 -167 Outcrop.tml
 -140 88 44 -135 94 49 CaveSpiderBurrow.tml
 67 88 -242 74 91 -237 PumpkinField.tml
@@ -29,12 +30,14 @@
 474 65 2212 479 71 2217 CaveSpiderBurrow.tml
 479 63 678 492 95 691 OreSpire.tml
 487 87 1105 502 95 1114 Archway.tml
+500 62 1436 509 77 1445 MoaiHead.tml
 519 66 -63 532 75 -50 VolcanicVent.tml
 554 62 939 570 75 951 Barn-intact.tml
 582 72 2064 586 74 2068 EmeraldOreOutcrop.tml
 649 63 2344 659 68 2354 RuinedSmallFountainDiagonal.tml
 666 61 1622 678 66 1634 AncientFountain.tml
 687 62 2632 697 71 2644 StoneHouseMruined.tml
+702 64 -309 706 66 -305 EmeraldOreOutcrop.tml
 705 62 1054 712 67 1059 ZombieHut.tml
 722 89 2795 727 92 2802 PumpkinField.tml
 741 65 1948 744 71 1952 StonePillar.tml
@@ -54,5 +57,18 @@
 983 68 1263 993 73 1273 RuinedSmallFountainDiagonal.tml
 990 67 2424 999 75 2439 Archway.tml
 1087 68 3234 1091 74 3237 StonePillar.tml
+1097 70 337 1107 79 349 StoneHouseMruined.tml
+1206 69 775 1210 75 778 StonePillar.tml
 1217 63 3411 1224 72 3418 Outcrop.tml
 1224 78 3105 1228 80 3109 EmeraldOreOutcrop.tml
+1248 48 2150 1256 65 2176 shipwreck.tml
+1344 68 508 1364 82 528 Altar.tml
+1349 62 825 1352 66 828 StoneGrill.tml
+1357 69 1231 1365 77 1242 MinersHut.tml
+1422 65 1384 1427 68 1391 Melonfield.tml
+1533 61 1526 1548 69 1541 Mausoleum.tml
+1536 62 2608 1541 68 2613 CaveSpiderBurrow.tml
+1564 64 1066 1573 72 1081 Archway.tml
+1653 70 693 1662 85 702 MoaiHead.tml
+1674 44 838 1700 61 846 shipwreck.tml
+1765 66 1489 1770 71 1496 ZombieHut.tml

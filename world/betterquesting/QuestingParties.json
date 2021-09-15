@@ -3,16 +3,28 @@
     "0:10": {
       "members:9": {
         "0:10": {
-          "uuid:8": "8ac9fa03-8a1a-4841-a58a-55ab64c730de",
+          "uuid:8": "278fcd05-9d8b-4688-b9e9-ad6b81fb4e63",
           "status:8": "MEMBER"
         },
         "1:10": {
-          "uuid:8": "529729ba-e957-4c01-87bb-ca1ca972bf54",
+          "uuid:8": "7ca30884-944c-45dd-a86f-6988a2305789",
           "status:8": "MEMBER"
         },
         "2:10": {
+          "uuid:8": "8ac9fa03-8a1a-4841-a58a-55ab64c730de",
+          "status:8": "MEMBER"
+        },
+        "3:10": {
+          "uuid:8": "529729ba-e957-4c01-87bb-ca1ca972bf54",
+          "status:8": "MEMBER"
+        },
+        "4:10": {
           "uuid:8": "d5fbc9d9-1185-4b96-a091-5e0d3ae9918f",
           "status:8": "OWNER"
+        },
+        "5:10": {
+          "uuid:8": "15c92b51-378b-4837-b62e-b27caecaa0d2",
+          "status:8": "MEMBER"
         }
       },
       "partyID:3": 0,

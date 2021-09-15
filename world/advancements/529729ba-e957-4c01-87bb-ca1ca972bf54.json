@@ -1,4 +1,148 @@
 {
+  "roots:stalicripe": {
+    "criteria": {
+      "book": "2021-09-09 00:25:02 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:progress_hydra": {
+    "criteria": {
+      "trophy": "2021-09-14 21:38:05 +0000"
+    },
+    "done": false
+  },
+  "roots:dewgonia": {
+    "criteria": {
+      "book": "2021-09-06 19:18:08 +0000"
+    },
+    "done": true
+  },
+  "roots:moonglow_leaf": {
+    "criteria": {
+      "book": "2021-09-09 03:05:05 +0000"
+    },
+    "done": true
+  },
+  "roots:fey_crafter": {
+    "criteria": {
+      "book": "2021-09-06 19:06:22 +0000"
+    },
+    "done": true
+  },
+  "roots:baffle_cap": {
+    "criteria": {
+      "book": "2021-09-08 00:02:53 +0000"
+    },
+    "done": true
+  },
+  "atum:core/thefullmuseum": {
+    "criteria": {
+      "tefnuts_blessing": "2021-09-14 22:35:10 +0000"
+    },
+    "done": false
+  },
+  "atum:core/deserthunter": {
+    "criteria": {
+      "tarantula": "2021-09-14 22:24:17 +0000"
+    },
+    "done": false
+  },
+  "roots:grove_stone": {
+    "criteria": {
+      "book": "2021-09-06 19:36:13 +0000"
+    },
+    "done": true
+  },
+  "roots:wildroot": {
+    "criteria": {
+      "book": "2021-09-06 00:56:40 +0000"
+    },
+    "done": true
+  },
+  "roots:spirit_herb": {
+    "criteria": {
+      "book": "2021-09-09 00:06:26 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/compat/ie_shaders": {
+    "criteria": {
+      "ie_shader_bag": "2021-09-14 22:34:37 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:progress_knights": {
+    "criteria": {
+      "trophy": "2021-09-14 21:38:04 +0000"
+    },
+    "done": false
+  },
+  "triumph:dj2/02_technology": {
+    "criteria": {
+      "hasEngineersHammer": "2021-09-06 17:11:46 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/entities/animals": {
+    "criteria": {
+      "0": "2021-09-14 22:14:29 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:progress_naga": {
+    "criteria": {
+      "kill_mob": "2021-09-14 22:14:29 +0000"
+    },
+    "done": false
+  },
+  "atum:core/lawbringer": {
+    "criteria": {
+      "barbarian": "2021-09-14 22:14:51 +0000",
+      "brigand": "2021-09-14 22:14:57 +0000",
+      "nomad": "2021-09-14 22:16:19 +0000"
+    },
+    "done": false
+  },
+  "triumph:dj2/01_divin_into_dj2": {
+    "criteria": {
+      "hasTotemCarverKnife": "2021-09-05 22:09:31 +0000"
+    },
+    "done": true
+  },
+  "atum:core/expectedresult": {
+    "criteria": {
+      "mummy": "2021-09-14 22:32:28 +0000"
+    },
+    "done": true
+  },
+  "roots:cloud_berry": {
+    "criteria": {
+      "book": "2021-09-06 19:39:24 +0000"
+    },
+    "done": true
+  },
+  "roots:all_the_herbs_3": {
+    "criteria": {
+      "wildroot": "2021-09-06 00:56:40 +0000",
+      "wildewheet": "2021-09-09 00:09:31 +0000",
+      "dewgonia": "2021-09-06 19:18:08 +0000",
+      "terra_moss": "2021-09-06 00:44:08 +0000",
+      "infernal_bulb": "2021-09-09 00:11:16 +0000",
+      "spirit_herb": "2021-09-09 00:06:26 +0000",
+      "stalicripe": "2021-09-09 00:25:02 +0000",
+      "baffle_cap": "2021-09-08 00:02:53 +0000",
+      "cloud_berry": "2021-09-06 19:39:24 +0000",
+      "pereskia": "2021-09-07 23:53:34 +0000",
+      "moonglow_leaf": "2021-09-09 03:05:05 +0000"
+    },
+    "done": true
+  },
+  "roots:wildewheet": {
+    "criteria": {
+      "book": "2021-09-09 00:09:31 +0000"
+    },
+    "done": true
+  },
   "erebus:portal/root": {
     "criteria": {
       "diamond": "2021-09-03 01:13:50 +0000",
@@ -7,9 +151,234 @@
     },
     "done": true
   },
+  "roots:wildwood": {
+    "criteria": {
+      "log": "2021-09-09 00:22:14 +0000"
+    },
+    "done": true
+  },
+  "roots:runestone": {
+    "criteria": {
+      "runestone": "2021-09-07 23:37:30 +0000"
+    },
+    "done": true
+  },
+  "roots:infernal_bulb": {
+    "criteria": {
+      "book": "2021-09-09 00:11:16 +0000"
+    },
+    "done": true
+  },
+  "roots:root": {
+    "criteria": {
+      "auto": "2021-09-05 19:53:21 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:progress_ur_ghast": {
+    "criteria": {
+      "trophy": "2021-09-14 21:38:16 +0000"
+    },
+    "done": false
+  },
+  "roots:terra_moss": {
+    "criteria": {
+      "book": "2021-09-06 00:44:08 +0000"
+    },
+    "done": true
+  },
+  "roots:sylvan_armor": {
+    "criteria": {
+      "chestplate": "2021-09-09 23:32:38 +0000",
+      "helmet": "2021-09-09 23:32:24 +0000",
+      "boots": "2021-09-09 23:32:29 +0000",
+      "leggings": "2021-09-09 23:32:33 +0000"
+    },
+    "done": true
+  },
+  "atum:core/journeyintothesands": {
+    "criteria": {
+      "entered_atum": "2021-09-14 22:14:45 +0000"
+    },
+    "done": true
+  },
+  "roots:runed_obsidian": {
+    "criteria": {
+      "runed_stone": "2021-09-09 03:35:53 +0000"
+    },
+    "done": true
+  },
+  "roots:pyre": {
+    "criteria": {
+      "book": "2021-09-06 16:58:20 +0000"
+    },
+    "done": true
+  },
+  "roots:wildwood_armor": {
+    "criteria": {
+      "chestplate": "2021-09-09 23:40:22 +0000",
+      "helmet": "2021-09-09 23:37:20 +0000",
+      "boots": "2021-09-09 23:39:06 +0000",
+      "leggings": "2021-09-09 23:41:14 +0000"
+    },
+    "done": true
+  },
+  "atum:core/unundead": {
+    "criteria": {
+      "bonestorm": "2021-09-14 22:20:09 +0000",
+      "mummy": "2021-09-14 22:18:05 +0000"
+    },
+    "done": false
+  },
+  "roots:pacifist": {
+    "criteria": {
+      "book": "2021-09-05 20:30:54 +0000"
+    },
+    "done": true
+  },
+  "roots:all_the_modifiers_4": {
+    "criteria": {
+      "infernal_bulb": "2021-09-09 02:55:17 +0000",
+      "stalicripe": "2021-09-09 02:54:53 +0000"
+    },
+    "done": false
+  },
+  "roots:staff": {
+    "criteria": {
+      "book": "2021-09-06 18:55:40 +0000"
+    },
+    "done": true
+  },
+  "atum:core/itbelongsinamuseum": {
+    "criteria": {
+      "tefnuts_blessing": "2021-09-14 22:35:10 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/biomes/general_biomes": {
+    "criteria": {
+      "4": "2021-09-14 22:11:31 +0000"
+    },
+    "done": true
+  },
+  "atum:core/ajourney": {
+    "criteria": {
+      "dried_river": "2021-09-14 22:15:01 +0000",
+      "sand_plains": "2021-09-14 22:14:45 +0000"
+    },
+    "done": false
+  },
+  "roots:pereskia": {
+    "criteria": {
+      "book": "2021-09-07 23:53:34 +0000"
+    },
+    "done": true
+  },
+  "roots:terrastone": {
+    "criteria": {
+      "sword": "2021-09-09 03:33:27 +0000",
+      "pickaxe": "2021-09-09 03:29:58 +0000",
+      "shovel": "2021-09-09 03:30:19 +0000",
+      "axe": "2021-09-09 03:30:08 +0000",
+      "hoe": "2021-09-09 03:30:03 +0000"
+    },
+    "done": true
+  },
   "twilightforest:alt/compat/tc_aspects": {
     "criteria": {
       "crystal_essence": "2021-09-03 21:07:39 +0000"
+    },
+    "done": true
+  },
+  "roots:living": {
+    "criteria": {
+      "sword": "2021-09-09 03:32:59 +0000",
+      "pickaxe": "2021-09-09 03:24:48 +0000",
+      "shovel": "2021-09-09 03:25:32 +0000",
+      "axe": "2021-09-09 03:25:24 +0000",
+      "hoe": "2021-09-09 03:25:10 +0000"
+    },
+    "done": true
+  },
+  "roots:renewable_renaissance": {
+    "criteria": {
+      "wildroot": "2021-09-09 00:16:08 +0000",
+      "stalicripe_crop": "2021-09-14 21:41:00 +0000",
+      "dewgonia": "2021-09-09 03:20:46 +0000",
+      "infernal_bulb": "2021-09-14 21:40:13 +0000",
+      "cloud_berry": "2021-09-06 19:41:03 +0000",
+      "moonglow_leaf": "2021-09-09 03:05:54 +0000",
+      "pereskia": "2021-09-14 21:42:27 +0000"
+    },
+    "done": false
+  },
+  "twilightforest:alt/entities/bighorn_sheep": {
+    "criteria": {
+      "slay": "2021-09-14 22:14:29 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:root": {
+    "criteria": {
+      "in_tf": "2021-09-14 22:11:31 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/biomes/firefly_forest": {
+    "criteria": {
+      "discover": "2021-09-14 22:12:29 +0000"
+    },
+    "done": true
+  },
+  "triumph:dj2/04_digital_storage": {
+    "criteria": {
+      "hasEnergyAcceptor": "2021-09-15 00:37:15 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:progress_glacier": {
+    "criteria": {
+      "trophy": "2021-09-14 21:38:10 +0000"
+    },
+    "done": false
+  },
+  "twilightforest:progress_lich": {
+    "criteria": {
+      "trophy": "2021-09-14 21:38:05 +0000"
+    },
+    "done": false
+  },
+  "twilightforest:twilight_hunter": {
+    "criteria": {
+      "bighorn_sheep": "2021-09-14 22:14:29 +0000"
+    },
+    "done": true
+  },
+  "roots:runed": {
+    "criteria": {
+      "sword": "2021-09-09 03:44:54 +0000",
+      "pickaxe": "2021-09-09 03:45:55 +0000",
+      "shovel": "2021-09-09 03:48:51 +0000",
+      "axe": "2021-09-09 03:46:46 +0000",
+      "hoe": "2021-09-09 03:45:20 +0000"
+    },
+    "done": true
+  },
+  "roots:guide": {
+    "criteria": {
+      "book": "2021-09-06 00:43:11 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/biomes/dense_twilight_forest": {
+    "criteria": {
+      "discover": "2021-09-14 22:11:31 +0000"
+    },
+    "done": true
+  },
+  "atum:core/killorbekilled": {
+    "criteria": {
+      "barbarian": "2021-09-14 22:14:51 +0000"
     },
     "done": true
   },
